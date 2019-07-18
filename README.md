@@ -1,14 +1,14 @@
 # Brokerclient
-Client package for IG rest and streaming APIs.  Aim of the package is to model IG Rest endpoints and streaming endpoints as faithfully as possible.  PAckage is incomplete as of writing.
+Client package for IG rest and streaming APIs.  Aim of the package is to model IG Rest endpoints and streaming endpoints as faithfully as possible.  Package is incomplete as of writing.  Only the Market REST API endpoint is fully implemented.
 
 You can access the API by creating a demo account at
 https://www.ig.com/uk/login
 
 #Todos
-Onlyy a few of the API and streaming API endpoints are present so far and the package is incomplete.
-Refresh token functionality is still ot in place :(
-Streaming API not quite there yet, only market heart beat so far.
-Some of the API response classes have way to many args in constructors and need to be broken down but still match IGs API model.
+1. Only a few of the API and streaming API endpoints are present so far and the package is incomplete.
+2. Refresh token functionality is still ot in place :(
+3. Streaming API not quite there yet, only market heart beat so far.
+4. Some of the API response classes have way to many args in constructors and need to be broken down but still match IGs API model.
 
 
 # REST API example of usage
