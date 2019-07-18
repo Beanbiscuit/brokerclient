@@ -8,7 +8,7 @@ Streaming API not quite there yet, only market heart beat so far.
 Some of the API response classes have way to many args in constructors and need to be broken down but still match IGs API model.
 
 
-# Rest Api Example of usage
+# REST API example of usage
 The below snippet will fetch Bitcoin market data and prices.
 
         final ApiClient client = ApiClient.newInstance(
@@ -64,8 +64,8 @@ The below snippet will fetch Bitcoin market data and prices.
             "https://demo-api.ig.com/gateway/deal",
             Level.INFO
         );
-        
-#Streaming API
+         
+# Streaming API example of usage
 
 Below snippet gets the heart beat from the IG streaming API.
 
