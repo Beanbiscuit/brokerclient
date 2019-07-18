@@ -1,6 +1,9 @@
 # Brokerclient
 Client package for IG rest and streaming APIs.  Aim of the package is to model IG Rest endpoints and streaming endpoints as faithfully as possible.  PAckage is incomplete as of writing.
 
+You can access the API by creating a demo account at
+https://www.ig.com/uk/login
+
 #Todos
 Onlyy a few of the API and streaming API endpoints are present so far and the package is incomplete.
 Refresh token functionality is still ot in place :(
